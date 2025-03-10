@@ -60,6 +60,58 @@
         
 //    }
 //}
+
+// class Array_creation{
+//     int size=10;
+//     int[]arr=new int[size];
+//     int i=0;
+//     public void add(int num){
+//         if(i==size){
+//             expand();
+//         }
+//         arr[i++]=num;
+//     }
+//     public void remove(int num){
+//         for(int i=0;i<size;i++){
+//             if(arr[i]==num){
+//                 for(int j=i;j<size-1;j++){
+//                     arr[j]=arr[j+1];
+//                 }
+//             }
+//         }
+//     }
+//     public void insert(int num,int pos){
+//         int[]arr1=Arrays.copyOf(arr,size);
+//         arr[pos]=num;
+//         for(int j=pos+1;j<size-1;j++){
+//             arr[j]=arr1[j-1];
+//         }
+//     }
+//     public void view(){
+//         System.out.println(Arrays.toString(arr));
+//     }
+//     private void expand(){
+//         size*=2;
+//         arr = Arrays.copyOf(arr, size);
+//     }
+// }
+// class Array{
+//     public static void main(String[] args) {
+//         Array_creation A=new Array_creation();
+//         A.add(1);
+//         A.add(2);
+//         A.add(3);
+//         A.add(4);
+//         A.add(5);
+//         A.add(6);
+//         A.add(7);
+//         A.add(8);
+//         A.add(9);
+//         A.add(10);
+//         A.add(11);
+//         A.view();
+//     }
+// }
 // class Array_creation{
 //     int size=10;
 //     int[]arr=new int[size];
