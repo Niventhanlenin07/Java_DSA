@@ -40,3 +40,26 @@
 //     }
 //     }
 // }
+
+// import java.util.Arrays;
+// class Student{ 
+//         String Name;
+//         int Age;
+//         Student(String name,int age){
+//             this.Name=name;
+//             this.Age=age;
+//         }
+//     }
+// class Practice{
+//     public static void main(String[] args) {
+//        Student[]s=new Student[5];
+//        s[0]=new Student("Niventhan", 21);
+//        for(Student i:s){
+//         if(i==null){
+//             throw new NullPointerException("No elements are there");
+//         }else{
+//             System.out.println(i.Name+" "+i.Age);
+//         }
+//        }
+//     }
+// }
