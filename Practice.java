@@ -63,3 +63,27 @@
 //        }
 //     }
 // }
+//import java.util.*;
+// class Student{ 
+//     String Name;
+//     int Age;
+//     Student(String name,int age){
+//         this.Name=name;
+//         this.Age=age;
+//     }
+//     public String toString(){
+//         return Name+" "+Age;
+//     }
+// }
+// class Practice{
+//         public static void main(String[] args) {
+//           ArrayList mylist=new ArrayList();
+//           mylist.add(new Student("Niventhan",21));
+//           mylist.add(new Student("Abinaya", 22));
+//           mylist.add(new Student("Prabhu kumar", 25));
+//           mylist.add(new Student("Kamaraj", 28));
+//           for(Object obj:mylist){
+//             System.out.println(obj.toString());
+//           }
+//         }
+//     }          
