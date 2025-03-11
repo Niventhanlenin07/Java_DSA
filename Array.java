@@ -163,3 +163,14 @@
 //         A.view();
 //     }
 // }
+
+// import java.util.Arrays;
+
+// class Array{
+//     public static void main(String[] args) {
+//         int[]arr={1,2,2,3};
+//         int[]arr1={1,2,2,3};
+//         System.out.println(arr.hashCode());
+//         System.out.println(arr1.hashCode());
+//     }
+// }
