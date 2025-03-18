@@ -203,3 +203,95 @@
         // System.out.println(al);
     //}
 //}
+
+// import java.util.Arrays;
+// import java.util.Scanner;
+// class dynamicArray{
+//     private int[]arr;
+//     private int i;
+//     private int capacity;
+//     dynamicArray(int capacity){
+//         this.capacity=capacity;
+//         arr=new int[capacity];
+//         i=0;
+//     }
+//     public void add(int number){
+//         if(i==capacity){
+//             expand();
+//         }
+//         arr[i++]=number;
+//     }
+//     public void insertEnd(int number){
+//         arr[i]=number;
+//     }
+//     public void insert(int number,int pos){
+//         int[]arr1=Arrays.copyOf(arr,capacity);
+//         for(int i=pos;i<capacity-1;i++){
+//             arr[i+1]=arr1[i];
+//         }
+//         arr[pos]=number;
+//     }
+//     public void delete(int pos){
+//         for(int i=pos;i<capacity-1;i++){
+//             arr[i]=arr[i+1];
+//         }
+//     }
+//     public void view(){
+//         for(int i:arr){
+//             System.out.print(i+" ");
+//         }
+//         System.out.println();
+//     }
+//     private void expand(){
+//         capacity*=2;
+//         arr=Arrays.copyOf(arr,capacity);
+//     }
+// }
+// class Array{
+//     public static void main(String[] args) {
+//         Scanner scan=new Scanner(System.in);
+//         dynamicArray list=new dynamicArray(10);
+//         String result="""
+//                 Press 1 for add element in Array
+//                 Press 2 for insert element in end of the Array
+//                 Press 3 for insert element in given position of the Array
+//                 Press 4 for delete element in Array
+//                 Press 5 for view the Array
+//                 Press 6 for exit
+//                 """;
+//         boolean loop=true;
+//         int number;
+//         int pos;
+//         while (loop) {
+//             System.out.println("Enter the number");
+//             int num=scan.nextInt();
+//             switch (num) {
+//                 case 1:
+//                     number=scan.nextInt();
+//                     list.add(number);
+//                     break;
+            
+//                 case 2:
+//                     number=scan.nextInt();
+//                     list.insertEnd(number);
+//                     break;
+//                 case 3:
+//                     number=scan.nextInt(); 
+//                     pos=scan.nextInt();
+//                     list.insert(number,pos);
+//                     break;
+//                 case 4:
+//                     pos=scan.nextInt();
+//                     list.delete(pos);
+//                     break;
+//                 case 5:
+//                     list.view();
+//                     break;    
+//                 case 6:
+//                     loop=false;
+//                     break;    
+//             }
+//         }
+
+//     }
+// }
