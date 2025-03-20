@@ -37,48 +37,47 @@
 // }
 
 //Stack using LinkedList
-class stackList{
-    Node top;
-    Node head;
-    class Node{
-        int data;
-        Node next;
-        Node(int val){
-            data=val;
-            next=null;
-        }
-    }
-    stackList(){
-        top=null;
-        head=null;
-    }
-    public void push(int val){
-        Node n=new Node(val);
-        if(top==null && head==null){
-            top=n;
-            head=n;
-        }
-        top.next=n;
-        top=n;
-    }
-    public void display(){
-        if(top==null){
-            throw new NullPointerException("Stack is empty");
-        }
-        Node curr=head;
-        while(curr!=null){
-            System.out.println(curr.data);
-            curr=curr.next;
-        }
-    }
-}
-class stack{
-    public static void main(String[] args) {
-        stackList s=new stackList();
-        s.push(1);
-        s.push(2);
-        s.push(3);
-        s.push(4);
-        s.display();
-    }
-}
+// class stackList{
+//     Node top;
+//     class Node{
+//         int data;
+//         Node next;
+//         Node(int val){
+//             data=val;
+//             next=null;
+//         }
+//     }
+//     stackList(){
+//         top=null;
+//     }
+//     public void push(int val){
+//         Node n=new Node(val);
+//         n.next=top;
+//         top=n;
+//     }
+//     public void pop(){
+//         if(top==null){
+//             throw new NullPointerException("Stack is empty");
+//         }
+//         int temp=top.data;
+//         System.out.println(temp);
+//         top=top.next;
+        
+//     }
+// }
+// class stack{
+//     public static void main(String[] args) {
+//         stackList s=new stackList();
+//         s.push(1);
+//         s.push(2);
+//         s.push(3);
+//         s.push(4);
+//         s.pop();
+//         s.pop();
+//         s.pop();
+//         s.pop();
+//         s.pop();
+//         s.pop();
+//         s.pop();
+//     }
+// }
