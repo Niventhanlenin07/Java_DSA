@@ -87,3 +87,37 @@
 //           }
 //         }
 //     } 
+
+// import java.util.ArrayList;
+// import java.util.Arrays;
+// import java.util.Collections;
+// import java.util.List;
+
+// class Practice{
+//     public static void main(String[] args) {
+//         Integer[]arr={1,2,3,5,6,7,9,8,4};
+//         Arrays.sort(arr);
+//         System.out.println(Arrays.toString(arr));
+//         List<Integer>l=Arrays.asList(arr);
+//         Collections.reverse(l);
+//         System.out.println(l.toString());
+//     }
+// }
+
+// import java.util.Arrays;
+
+// class practice{
+//     public static void main(String[] args) {
+//         int[]arr={1,2,3,4,5,6};
+//         int start=0;
+//         int end=arr.length-1;
+//         while(start<=end){
+//             int temp=arr[start];
+//             arr[start]=arr[end];
+//             arr[end]=temp;
+//             end--;
+//             start++;
+//         }
+//         System.out.println(Arrays.toString(arr));
+//     }
+// }
