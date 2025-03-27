@@ -59,6 +59,64 @@
 //             prev.next=temp.next;
 //         }
 //     }
+//     void update(int val,int pos){
+//         Node curr=head; 
+//         if(pos==0){
+//             head.data=val;
+//         }else{
+//             for(int i=1;i<=pos;i++){
+//                 curr=curr.next;
+//             }
+//             curr.data=val;
+//         }
+//     }
+//     void get(int pos){
+//         Node curr=head; 
+//         if(pos==0){
+//             System.out.println(curr.data);
+//         }else{
+//             for(int i=1;i<=pos;i++){
+//                 curr=curr.next;
+//             }
+//             System.out.println("Position of "+pos+" is "+curr.data);
+//         }
+//     }
+//     void search(int val){
+//         int i=0;
+//         StringBuilder sb=new StringBuilder();
+//         Node curr=head;
+//         while(curr!=null){
+//             if(curr.data==val){
+//                 sb.append(i+" ");
+//             }
+//             curr=curr.next;
+//             i++;
+//         }
+//         if(sb.isEmpty()){
+//             System.out.println("Not match");
+//         }else{
+//             System.out.println("Position : "+sb.toString());
+//         }
+
+//     }
+//     void contains(int val){
+//         int i=0;
+//         StringBuilder sb=new StringBuilder();
+//         Node curr=head;
+//         while(curr!=null){
+//             if(curr.data==val){
+//                 sb.append(i+" ");
+//             }
+//             curr=curr.next;
+//             i++;
+//         }
+//         if(sb.isEmpty()){
+//             System.out.println("False");
+//         }else{
+//             System.out.println("True");
+//         }
+
+//     }
 //     void view(){
 //         Node curr=head;
 //         while(curr!=null){
@@ -77,16 +135,13 @@
 //     l.insertEnd(5);
 //     l.insertEnd(6);
 //     l.insertAtBegin(0);
-//     l.insertAtBegin(-1);
-//     l.insertEnd(7);
-//     l.insertAtBegin(-2);
-//     l.insertAtBegin(-3);
-//     l.insertAtBegin(-4);
-//     l.insertAtBegin(-5);
-//     l.insertAtBegin(-6);
-//     l.insertAtBegin(-7);
-//     l.deleteAtPos(0);
-//     l.deleteAtPos(1);
 //     l.view();
+//     l.update(2, 1);
+//     System.out.println();
+//     l.view();
+//     System.out.println();
+//     l.get(2);
+//     l.search(7);
+//     l.contains(7);
 //   }  
 // } 
