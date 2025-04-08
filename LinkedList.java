@@ -9,6 +9,7 @@
 //     }
 //     Node head;
 //     Node curr;
+//     Node prev;
 //     List(){
 //         head=null;
 //     }
@@ -117,6 +118,18 @@
 //         }
 
 //     }
+//     public void reversed(){
+//         Node curr=head;
+//         prev=null;
+//         Node next=head.next;
+//         while(curr!=null){
+//             next=curr.next;
+//             curr.next=prev;
+//             prev=curr;
+//             curr=next;
+//         }
+//         head=prev;
+//     }
 //     void view(){
 //         Node curr=head;
 //         while(curr!=null){
@@ -134,14 +147,7 @@
 //     l.insertEnd(4);
 //     l.insertEnd(5);
 //     l.insertEnd(6);
-//     l.insertAtBegin(0);
+//     l.reversed();
 //     l.view();
-//     l.update(2, 1);
-//     System.out.println();
-//     l.view();
-//     System.out.println();
-//     l.get(2);
-//     l.search(7);
-//     l.contains(7);
 //   }  
 // } 
