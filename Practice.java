@@ -121,3 +121,41 @@
 //         System.out.println(Arrays.toString(arr));
 //     }
 // }
+
+//import java.util.*;
+// class Practice{
+//     public static void main(String[] args) {
+//         HashMap<Character,Character>h=new HashMap<>();
+//         String s="abc";
+//         String s1="xyz";
+//         if(s1.length()==s.length()){
+//             boolean flag=true;
+//             for(int i=0;i<s.length();i++){
+//                 if(h.containsKey(s.charAt(i))){
+//                     if(h.get(s.charAt(i))==s1.charAt(i)){
+//                         flag=true;
+//                     }else{
+//                         flag=false;
+//                     }
+//                 }else{
+//                     h.put(s.charAt(i),s1.charAt(i));
+//                 }
+//             }
+//             if(flag){
+//                 System.out.println("True");
+//             }else{
+//                 System.out.println("False");
+//             }
+//         }else{
+//             System.out.println("Length is not matched");
+//         }
+//     }
+// }
+import java.util.*;
+class Practice{
+    public static void main(String[] args) {
+        int[]arr1={1, 2, 3, 4, 5, 10};
+        int[]arr2={2, 3, 1, 0, 5};
+        
+    }
+}

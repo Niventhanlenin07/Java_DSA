@@ -121,7 +121,7 @@
 //     public void reversed(){
 //         Node curr=head;
 //         prev=null;
-//         Node next=head.next;
+//         Node next;
 //         while(curr!=null){
 //             next=curr.next;
 //             curr.next=prev;
