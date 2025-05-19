@@ -152,10 +152,16 @@
 //     }
 // }
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 class Practice{
     public static void main(String[] args) {
-        int[]arr1={1, 2, 3, 4, 5, 10};
-        int[]arr2={2, 3, 1, 0, 5};
-        
+        String s="aa 123";
+        Pattern p=Pattern.compile("\\d+");
+        Matcher m=p.matcher(s);
+        while(m.find()){
+            System.out.print(m.group()+" ");
+        }
     }
 }
